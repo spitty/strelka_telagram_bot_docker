@@ -13,3 +13,10 @@ docker run -d -v $(pwd)/strelka_data:/strelka_data --name=strelka-data busybox /
 ```
 docker run -d --volumes-from strelka-data --name strelka-bot spitty/strelka-bot
 ```
+
+# Run with [Docker Compose](https://docs.docker.com/compose/)
+After creating `strelka_data/token.lst` just simply run
+
+```
+docker-compose up
+```

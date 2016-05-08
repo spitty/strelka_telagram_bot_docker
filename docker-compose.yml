@@ -1,0 +1,13 @@
+version: '2'
+services:
+  strelka-data:
+    image: spitty/strelka-bot
+    command: /bin/true
+    entrypoint: /bin/true
+    volumes:
+      - ./strelka_data:/strelka_data
+
+  strelka-bot:
+    image: spitty/strelka-bot
+    volumes_from:
+      - strelka-data
