@@ -2,6 +2,12 @@
 
 Dockerized [`strelka_telegram_bot`](https://github.com/spitty/strelka_telegram_bot).
 
+# Creating Docker image
+
+```
+TAG=latest; docker build --no-cache --build-arg TAG=${TAG} -t spitty/strelka-bot:${TAG} .
+```
+
 # Usage
 
 1. Generate token for your bot and put it to `strelka_data/token.lst`.
