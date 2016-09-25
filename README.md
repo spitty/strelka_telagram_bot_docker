@@ -1,3 +1,4 @@
+[![](https://images.microbadger.com/badges/image/spitty/strelka-bot.svg)](https://microbadger.com/images/spitty/strelka-bot)
 # strelka-bot
 
 Dockerized [`strelka_telegram_bot`](https://github.com/spitty/strelka_telegram_bot).
